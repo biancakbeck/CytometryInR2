@@ -55,9 +55,9 @@ Let's start off by recalling the approach we first saw during [Week 03](/course/
 To do this, we first identified the .fcs files we were interested using `file.path()` to specify the folder, and `list.files()` to find contents containing ".fcs". 
 
 ```{r}
-# Folder <- file.path("course", "05_GatingSets", "data") # For Testing
+Folder <- file.path("course", "05_GatingSets", "data") # For Testing
 
- Folder <- file.path("data") # For Quarto Rendering
+ #Folder <- file.path("data") # For Quarto Rendering
 
 fcs_files <- list.files(Folder, pattern=".fcs", full.names=TRUE)
 
